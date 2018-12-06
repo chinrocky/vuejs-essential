@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div>
     <div class="carousel">
       <el-carousel :interval="4000" type="card" height="200px">
@@ -95,7 +95,7 @@ export default {
 
 </script>
 
-<style lang="css">
+<style>
 
 .el-carousel__item h3 {
   color: #475669;
