@@ -179,6 +179,10 @@ export default {
   font-size: 14px;
 }
 
+span {
+  font-size: 18px;
+}
+
 .item {
   margin-bottom: 18px;
 }
@@ -266,27 +270,4 @@ export default {
   border-top-width: 0.3em;
   border-top-color: gray;
 }
-
-
-
-/* .section1 {
-  padding-right: 5.5em;
-  float: right;
-}
-
-.section3 {
-  margin-top: 3.5em;
-  float: right;
-  padding-right: 5.5em;
-}
-
-.section2 {
-  padding-left: 5.5em;
-}
-
-.section4 {
-  margin-top: 3.5em;
-  padding-left: 5.5em;
-} */
-
 </style>
