@@ -258,9 +258,16 @@ span {
   float: left;
 }
 
+.sidebar1,
 .sidebar2,
 .sidebar3 {
-  margin-top: 3.3em;
+  float: left;
+  width: 20%;
+}
+
+.sidebar2,
+.sidebar3 {
+  margin-top: 3em;
 }
 
 .side-card1,
