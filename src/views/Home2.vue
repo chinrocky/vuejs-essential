@@ -36,6 +36,18 @@
         </el-card>
       </div>
 
+      <div class="sidebar1">
+        <el-card class="side-card1">
+          <div class="clearfix" slot="header">
+            <span>热门版面1</span>
+          </div>
+
+          <div class="item text" v-for="o in 5" :key="o">
+            {{ "列表内容" + o }}
+          </div>
+        </el-card>
+      </div>
+
       <div class="section3">
         <el-card class="box-card">
           <div class="clearfix" slot="header">
@@ -58,6 +70,56 @@
 
           <div class="item text" v-for="o in 5" :key="o">
             {{ "列表内容 " + o }}
+          </div>
+        </el-card>
+      </div>
+
+      <div class="sidebar2">
+        <el-card class="side-card2">
+          <div class="clearfix" slot="header">
+            <span>热门版面2</span>
+          </div>
+
+          <div class="item text" v-for="o in 5" :key="o">
+            {{ "列表内容" + o }}
+          </div>
+        </el-card>
+      </div>
+
+      <div class="section5">
+        <el-card class="box-card">
+          <div class="clearfix" slot="header">
+            <span>版块5</span>
+            <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
+          </div>
+
+          <div class="item text" v-for="o in 5" :key="o">
+            {{ "列表内容 " + o }}
+          </div>
+        </el-card>
+      </div>
+
+      <div class="section6">
+        <el-card class="box-card">
+          <div class="clearfix" slot="header">
+            <span>版块6</span>
+            <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
+          </div>
+
+          <div class="item text" v-for="o in 5" :key="o">
+            {{ "列表内容 " + o }}
+          </div>
+        </el-card>
+      </div>
+
+      <div class="sidebar3">
+        <el-card class="side-card3">
+          <div class="clearfix" slot="header">
+            <span>热门版面3</span>
+          </div>
+
+          <div class="item text" v-for="o in 5" :key="o">
+            {{ "列表内容" + o }}
           </div>
         </el-card>
       </div>
@@ -132,10 +194,41 @@ export default {
 }
 
 .box-card {
-  width: 480px;
+  width: 90%;
+}
+
+.section1,
+.section2,
+.section3,
+.section4,
+.section5,
+.section6 {
+  width: 40%;
 }
 
 .section1 {
+  float: left;
+}
+
+.section2 {
+  float: left;
+}
+
+.section3,
+.section4,
+.section5,
+.section6 {
+  margin-top: 3em;
+  float: left;
+}
+
+.sidebar2,
+.sidebar3 {
+  margin-top: 3.3em;
+}
+
+
+/* .section1 {
   padding-right: 5.5em;
   float: right;
 }
@@ -153,6 +246,6 @@ export default {
 .section4 {
   margin-top: 3.5em;
   padding-left: 5.5em;
-}
+} */
 
 </style>
