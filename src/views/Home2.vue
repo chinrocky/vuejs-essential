@@ -11,7 +11,7 @@
 
     <div class="section">
       <div class="section1">
-        <el-card class="box-card">
+        <el-card class="box-card1">
           <div class="clearfix" slot="header">
             <span>版块1</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
@@ -24,7 +24,7 @@
       </div>
 
       <div class="section2">
-        <el-card class="box-card">
+        <el-card class="box-card2">
           <div class="clearfix" slot="header">
             <span>版块2</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
@@ -49,7 +49,7 @@
       </div>
 
       <div class="section3">
-        <el-card class="box-card">
+        <el-card class="box-card3">
           <div class="clearfix" slot="header">
             <span>版块3</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
@@ -62,7 +62,7 @@
       </div>
 
       <div class="section4">
-        <el-card class="box-card">
+        <el-card class="box-card4">
           <div class="clearfix" slot="header">
             <span>版块4</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
@@ -87,7 +87,7 @@
       </div>
 
       <div class="section5">
-        <el-card class="box-card">
+        <el-card class="box-card5">
           <div class="clearfix" slot="header">
             <span>版块5</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
@@ -100,7 +100,7 @@
       </div>
 
       <div class="section6">
-        <el-card class="box-card">
+        <el-card class="box-card6">
           <div class="clearfix" slot="header">
             <span>版块6</span>
             <el-button style="float: right; padding: 3px 0" type="text">更多</el-button>
@@ -193,8 +193,40 @@ export default {
   clear: both
 }
 
-.box-card {
+.box-card1,
+.box-card2,
+.box-card3,
+.box-card4,
+.box-card5,
+.box-card6 {
   width: 90%;
+  border-top-style: solid;
+  border-top-width: 0.3em;
+
+}
+
+.box-card1 {
+  border-top-color: orange;
+}
+
+.box-card2 {
+  border-top-color: green;
+}
+
+.box-card3 {
+  border-top-color: blueviolet;
+}
+
+.box-card4 {
+  border-top-color: sienna;
+}
+
+.box-card5 {
+  border-top-color: rosybrown;
+}
+
+.box-card6 {
+  border-top-color: indigo;
 }
 
 .section1,
@@ -226,6 +258,15 @@ export default {
 .sidebar3 {
   margin-top: 3.3em;
 }
+
+.side-card1,
+.side-card2,
+.side-card3 {
+  border-top-style: solid;
+  border-top-width: 0.3em;
+  border-top-color: gray;
+}
+
 
 
 /* .section1 {
